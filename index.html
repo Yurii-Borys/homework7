@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html len="en">
+<head>
+  <meta charset="UTF-08">
+  <title>Конвертер валют</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="index.js"></script>
+</head>
+<body>
+  <h1>Конвертер валют</h1>
+<form>
+  <div class="conv">
+    <label for="amount">Amount:</label>
+    <input type="number" id="amount" value="">
+    <select id="select1">
+      <option value="USD">USD </option>
+      <option value="EUR">EUR </option>
+      <option value="UA">UA </option>
+    </select>
+  </div>
+  <div class="conv">
+      <input type="number" id="result" value="">
+    <select id="select2">
+      <option value="USD">USD </option>
+      <option value="EUR">EUR </option>
+      <option value="UA" selected>UA </option>
+    </select>
+   
+  </div>
+<div class="conv">
+    <input  class="calc" type="button" value="Розрахувати" onclick="calculate();">
+    <input  class="res" type="reset" value="Обнулити">
+  </div>
+  
+</form>
+
+
+</body>
+
+
+
+</html>

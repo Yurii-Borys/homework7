@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+}
+form {
+  display: flex;
+  flex-direction: row;
+}
+
+.conv {
+  margin:10px;
+}
+
+.calc {
+background-color: chartreuse;
+}
+.res {
+  background-color: rgb(241, 189, 170);
+}
